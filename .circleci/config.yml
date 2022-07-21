@@ -42,7 +42,7 @@ jobs:
 workflows:
   bta:
     jobs:
-      - build:
+      - build
       - test:
           requires:
             - build
